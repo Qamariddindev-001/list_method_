@@ -8,5 +8,15 @@
     Returns:
         list: return answer 
 */
+List func(List a, String x, int i) {
+  a.insert(i, x);
 
-void main() {}
+  return a;
+}
+
+void main() {
+  List fruits = ['apple', 'banana'];
+  String fruit = 'kiwi';
+  int i = 1;
+  print(func(fruits, fruit, i = 1));
+}
