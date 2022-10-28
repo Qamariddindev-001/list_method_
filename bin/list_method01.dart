@@ -7,9 +7,14 @@
     Returns:
         list: return answer
 */
+List func(List a, String x) {
+  a.add(x);
+  return a;
+}
 
 void main() {
-  List a = ["apple", "banana"];
-  a.addAll(['kiwi']);
-  print(a);
+  List fruits = ["apple", "banana"];
+  String fruit = 'Kiwi';
+
+  print(func(fruits, fruit));
 }
