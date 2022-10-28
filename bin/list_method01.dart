@@ -9,12 +9,10 @@
 */
 List func(List a, String x) {
   a.add(x);
+
   return a;
 }
 
 void main() {
-  List fruits = ["apple", "banana"];
-  String fruit = 'Kiwi';
-
-  print(func(fruits, fruit));
+  print(func(["apple", "banana"], 'kiwi'));
 }
