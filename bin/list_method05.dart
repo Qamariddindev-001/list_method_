@@ -9,5 +9,11 @@
     Returns:
         list: return answer
 */
+List func(List numbers1, List nubers2) {
+  numbers1.addAll(nubers2);
+  return numbers1;
+}
 
-void main() {}
+void main() {
+  print(func([1, 2, 3, 4], [5, 6, 7]));
+}
