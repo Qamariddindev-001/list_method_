@@ -8,4 +8,8 @@
         list: return answer
 */
 
-void main() {}
+void main() {
+  List a = ["apple", "banana"];
+  a.addAll(['kiwi']);
+  print(a);
+}
