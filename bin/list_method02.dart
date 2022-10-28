@@ -15,8 +15,5 @@ List func(List a, String x, int i) {
 }
 
 void main() {
-  List fruits = ['apple', 'banana'];
-  String fruit = 'kiwi';
-  int i = 1;
-  print(func(fruits, fruit, i = 1));
+  print(func(['apple', 'banana'], 'kiwi', 1));
 }
