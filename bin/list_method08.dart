@@ -6,7 +6,7 @@
     Returns:
         list: return answer
 */
-List fruits(List list) {
+List func(List list) {
   int b = list.length;
   for (int i = 0; i < b; i++) {
     list.remove('apple');
@@ -15,5 +15,5 @@ List fruits(List list) {
 }
 
 void main() {
-  print(fruits(["apple", "banana", "apple", "pear", "apple"]));
+  print(func(["apple", "banana", "apple", "pear", "apple"]));
 }
