@@ -6,5 +6,24 @@
     Returns:
         int: return answer
 */
+int func(List list) {
+  int x = 0;
+  for (int i = 0; i < list.length; i++) {
+    if (list[i] == 0) {
+      x++;
+    }
+  }
+  return x;
+}
 
-void main() {}
+void main() {
+  print(func([
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+  ]));
+}
