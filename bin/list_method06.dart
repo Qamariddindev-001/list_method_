@@ -6,7 +6,7 @@
     Returns:
         int: return answer
 */
-int Fruits(List list) {
+int func(List list) {
   int x = 0;
   for (int i = 0; i < list.length; i++) {
     if (list[i] == 'apple') {
@@ -17,5 +17,5 @@ int Fruits(List list) {
 }
 
 void main() {
-  print(Fruits(["apple", "banana", "apple", "pear"]));
+  print(func(["apple", "banana", "apple", "pear"]));
 }
