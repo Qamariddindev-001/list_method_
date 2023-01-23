@@ -6,5 +6,13 @@
     Returns:
         list: return answer
 */
+List fruits(List list) {
+  for (int i = 0; i < list.length; i++) {
+    list.remove('apple');
+  }
+  return list;
+}
 
-void main() {}
+void main() {
+  print(fruits(["apple", "banana", "apple", "pear", "apple"]));
+}
