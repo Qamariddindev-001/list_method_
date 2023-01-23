@@ -6,5 +6,16 @@
     Returns:
         int: return answer
 */
+int Fruits(List list) {
+  int x = 0;
+  for (int i = 0; i < list.length; i++) {
+    if (list[i] == 'apple') {
+      x++;
+    }
+  }
+  return x;
+}
 
-void main() {}
+void main() {
+  print(Fruits(["apple", "banana", "apple", "pear"]));
+}
