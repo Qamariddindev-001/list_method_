@@ -7,7 +7,8 @@
         list: return answer
 */
 List fruits(List list) {
-  for (int i = 0; i < list.length; i++) {
+  int b = list.length;
+  for (int i = 0; i < b; i++) {
     list.remove('apple');
   }
   return list;
